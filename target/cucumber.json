@@ -1,0 +1,924 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4571587700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "As a user i want to check if i can login successfully",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-check-if-i-can-login-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6001813400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to the Home page",
+            "match": {
+              "location": "stepDefinitions.i_go_to_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2506817300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the login link",
+            "match": {
+              "location": "stepDefinitions.i_click_the_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183150900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter email \"escosolo7@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "escosolo7@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.i_enter_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126054500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"Ikeama78\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ikeama78",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.i_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2003877600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71163700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify that \"Emeka Onuorha\" is logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Emeka Onuorha",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.iVerifyThatIsLoggedIn(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2429103800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I sign out",
+            "match": {
+              "location": "stepDefinitions.i_sign_out()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 55300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "As a user i want to check if i can login successfully",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-check-if-i-can-login-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2511283400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to the Home page",
+            "match": {
+              "location": "stepDefinitions.i_go_to_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1797653000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the login link",
+            "match": {
+              "location": "stepDefinitions.i_click_the_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154294100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter email \"switch146@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "switch146@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.i_enter_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151975600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"Escosolo7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Escosolo7",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.i_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2394223300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50212900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify that \"switch Esco\" is logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "switch Esco",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.iVerifyThatIsLoggedIn(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2802858000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I sign out",
+            "match": {
+              "location": "stepDefinitions.i_sign_out()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 59800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "As a user i want to check if i can login incorrectly",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-check-if-i-can-login-incorrectly;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3084658500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I go to the Home page",
+            "match": {
+              "location": "stepDefinitions.i_go_to_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2107911200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the login link",
+            "match": {
+              "location": "stepDefinitions.i_click_the_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281235400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter email \"escosolo7@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "escosolo7@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.i_enter_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125443700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.i_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1433664600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49364000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I see an error \"Password is required.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 65600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "As a user i want to check if i can login incorrectly",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-check-if-i-can-login-incorrectly;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3062304100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I go to the Home page",
+            "match": {
+              "location": "stepDefinitions.i_go_to_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2133703300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the login link",
+            "match": {
+              "location": "stepDefinitions.i_click_the_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66108800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter email \"\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.i_enter_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130415700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter password \"Ikeama78\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ikeama78",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.i_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1249770400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37767300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I see an error \"An email address required.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 99600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "As a user i want to check if i can login incorrectly",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-check-if-i-can-login-incorrectly;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3037658800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I go to the Home page",
+            "match": {
+              "location": "stepDefinitions.i_go_to_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1837965600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the login link",
+            "match": {
+              "location": "stepDefinitions.i_click_the_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153681200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter email \"xxxxx@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxx@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.i_enter_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105672300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter password \"Ikeama78\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ikeama78",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.i_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1599229900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77208700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I see an error \"Authentication failed.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 121400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "As a user i want to check if i can login incorrectly",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-check-if-i-can-login-incorrectly;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2152604800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I go to the Home page",
+            "match": {
+              "location": "stepDefinitions.i_go_to_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1734179000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the login link",
+            "match": {
+              "location": "stepDefinitions.i_click_the_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181219700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter email \"escosolo7@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "escosolo7@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.i_enter_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97924300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter password \"xxxxxxx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxx",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.i_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1213358600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39966100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I see an error \"Authentication failed.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 58800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "As a user i want to check if i can login incorrectly",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-check-if-i-can-login-incorrectly;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2577289000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I go to the Home page",
+            "match": {
+              "location": "stepDefinitions.i_go_to_the_Home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1731583900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the login link",
+            "match": {
+              "location": "stepDefinitions.i_click_the_login_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50029000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter email \"\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.i_enter_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65554100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.i_enter_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1038009700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click login button",
+            "match": {
+              "location": "stepDefinitions.i_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39049700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I see an error \"An email address required.\" message details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.i_see_an_error_message_details(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
