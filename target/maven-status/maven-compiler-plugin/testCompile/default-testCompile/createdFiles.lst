@@ -1,3 +1,11 @@
 com\workflow\eComs\AppTest.class
 com\workflow\eComs\stepDefinitions.class
+pages\HomePage.class
+pages\SignInPage.class
+pages\ForgotPassPage.class
 com\workflow\eComs\RunnerTest.class
+pages\ContactUsPage.class
+pages\CommonPage.class
+pages\SearchPage.class
+com\workflow\eComs\signIn.class
+pages\MyAccountPage.class

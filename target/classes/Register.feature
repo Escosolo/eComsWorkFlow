@@ -2,7 +2,7 @@
 Feature: Register New User
 
   Scenario Outline: As a user, I want to create an account
-    Given I go to the Home Page
+    Given I go to the Home page
     And I click the login link
     And I enter my new email address
     And I click on the create account button

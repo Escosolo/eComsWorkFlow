@@ -1,7 +1,7 @@
 @Ignore
 Feature: Search for items
   Background:
-    Given I go to the Home Page
+    Given I go to the Home page
     @Search
     Scenario: As a user I want to search for an item
       When I search for "shirt" in the search input box

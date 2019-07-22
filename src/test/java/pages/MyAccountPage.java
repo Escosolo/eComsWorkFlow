@@ -17,6 +17,7 @@ public class MyAccountPage {
     }
 
     public void I_verify_my_account(String user){
+
         Assert.assertEquals(user, my_account_name.getText());
     }
 }
