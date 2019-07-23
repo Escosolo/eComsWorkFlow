@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.workflow.eComs.AppTest" time="0.005" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.workflow.eComs.RunnerTest" time="71.487" tests="35" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
@@ -64,5 +64,39 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testApp" classname="com.workflow.eComs.AppTest" time="0.001"/>
+  <testcase name="Given I go to the Home Page" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onuorha |" time="0.003"/>
+  <testcase name="And I click the login link" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onuorha |" time="0"/>
+  <testcase name="And I enter email &quot;escosolo7@gmail.com&quot; address" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onuorha |" time="0"/>
+  <testcase name="And I enter password &quot;Ikeama78&quot;" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onuorha |" time="0"/>
+  <testcase name="When I click login button" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onuorha |" time="0"/>
+  <testcase name="Then I verify that &quot;Emeka Onuorha&quot; is logged in" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onuorha |" time="0"/>
+  <testcase name="And I sign out" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onuorha |" time="0"/>
+  <testcase name="| escosolo7@gmail.com | Ikeama78 | Emeka Onuorha |" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onuorha |" time="0"/>
+  <testcase name="Given I go to the Home Page" classname="| switch146@gmail.com | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I click the login link" classname="| switch146@gmail.com | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter email &quot;switch146@gmail.com&quot; address" classname="| switch146@gmail.com | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter password &quot;Escosolo7&quot;" classname="| switch146@gmail.com | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="When I click login button" classname="| switch146@gmail.com | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="Then I verify that &quot;switch Esco&quot; is logged in" classname="| switch146@gmail.com | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I sign out" classname="| switch146@gmail.com | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="| switch146@gmail.com | Escosolo7 | switch Esco |" classname="| switch146@gmail.com | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="Given I go to the Home Page" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I click the login link" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter my new email address" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0.001"/>
+  <testcase name="And I click on the create account button" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I click on male radio button" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter a firstname &quot;switch&quot;" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter a lastname &quot;Esco&quot;" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter a &quot;Escosolo7&quot;" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter my date of birth" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter address" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter city" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter state" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter postal code" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter country" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I enter mobile number" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="When I click register button" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="Then I verify that &quot;switch Esco&quot; is logged in" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="And I sign out" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0"/>
+  <testcase name="| switch | Esco | Escosolo7 | switch Esco |" classname="| switch | Esco | Escosolo7 | switch Esco |" time="0.001"/>
 </testsuite>
