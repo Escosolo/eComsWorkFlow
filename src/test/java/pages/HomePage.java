@@ -5,8 +5,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 public class HomePage {
-    @FindBy(how = How.LINK_TEXT, using="Contact us")
-    public static WebElement contact_us;
 
     @FindBy(how = How.LINK_TEXT, using="Sign in")
     public static WebElement Sign_in;
@@ -21,11 +19,10 @@ public class HomePage {
     public static WebElement cart;
 
 
-    public void click_contact_us() {
-        contact_us.click();
-    }
+
         public void click_Sign_in(){
             Sign_in.click();
+
     }
 
 

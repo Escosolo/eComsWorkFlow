@@ -20,6 +20,8 @@ import pages.SignInPage;
 
 import java.io.IOException;
 
+import static junit.framework.Assert.assertEquals;
+
 public class  stepDefinitions extends testBase {
 	@Before
 	public void setup() throws IOException {
@@ -30,6 +32,7 @@ public class  stepDefinitions extends testBase {
 	@Given("^I go to the Home Page$")
 	public void i_go_to_the_Home_Page() throws Throwable {
 		driver.get(CONFIG.getProperty("URL"));
+		driver.findElements(By.tagName("a"));
 	}
 
 	@Given("^I click the login link$")
@@ -61,7 +64,7 @@ public class  stepDefinitions extends testBase {
 		String expectedUser = "Emeka Onuorha";
 		System.out.println(expectedUser);
 		String actualUser = driver.findElement(By.cssSelector("#header > div.nav > div > div > nav > div:nth-child(1) > a > span")).getText();
-		Assert.assertEquals(expectedUser,actualUser);
+		assertEquals(expectedUser,actualUser);
 
 	}
 
@@ -156,7 +159,7 @@ public class  stepDefinitions extends testBase {
 
 	@Then("^I verify that \"([^\"]*)\" is logged in$")
 	public void iVerifyThatIsLoggedIn(String user) throws Throwable {
-		Assert.assertEquals(user, driver.findElement(By.cssSelector("span")).getText());
+		assertEquals(user, driver.findElement(By.cssSelector("span")).getText());
 	}
 
 
@@ -173,4 +176,37 @@ public class  stepDefinitions extends testBase {
 		SignInPage signInPage = PageFactory.initElements(driver, SignInPage.class);
 		signInPage.I_see_login_error_message(errormessage);
 	}
+
+    @When("^I search for \"([^\"]*)\" in the search input box$")
+    public void iSearchForInTheSearchInputBox(String value) throws Throwable {
+		driver.findElement(By.id("search_query_top")).click();
+		driver.findElement(By.id("search_query_top")).sendKeys(value);
+		driver.findElement(By.name("submit_search")).click();
+    }
+
+	@Then("^I see \"([^\"]*)\" product listing page$")
+	public void iSeeProductListingPage(String value) throws Throwable {
+		assertEquals("1 result has been found.", driver.findElement(By.cssSelector("span.heading-counter")).getText());
+
+	}
+
+	@When("^I click on the first item on page$")
+	public void iClickOnTheFirstItemOnPage() {
+		driver.findElement(By.cssSelector("a.product_img_link > img.replace-2x.img-responsive")).click();
+	}
+
+	@Then("^I verify search description \"([^\"]*)\" on the product page$")
+	public void iVerifySearchDescriptionOnTheProductPage(String value) throws Throwable {
+		assertEquals("Faded Short Sleeve T-shirts", driver.findElement(By.cssSelector("h1")).getText());
+
+	}
+
+	@And("^I also see option to select sizes$")
+	public void iAlsoSeeOptionToSelectSizes() {
+		driver.findElement(By.id("group_1")).click();
+		new Select(driver.findElement(By.id("group_1"))).selectByVisibleText("M");
+		driver.findElement(By.id("group_1")).click();
+	}
+
+
 }
